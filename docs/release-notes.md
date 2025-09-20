@@ -2,6 +2,22 @@
 
 ## Latest Changes
 
+## 0.19.0
+
+### Features
+
+* ✨ Support `typing.Literal` to define a set of predefined choices. PR [#429](https://github.com/fastapi/typer/pull/429) by [@blackary](https://github.com/blackary).
+* ✨ Allow setting an environment variable to `None` in `CliRunner.invoke`. PR [#1303](https://github.com/fastapi/typer/pull/1303) by [@arjenzorgdoc](https://github.com/arjenzorgdoc).
+
+### Refactors
+
+* ✅ Use Ruff rules to ensure safe lazy-loading of `rich`. PR [#1297](https://github.com/fastapi/typer/pull/1297) by [@nathanjmcdougall](https://github.com/nathanjmcdougall).
+* ✅ Avoid rich formatting in number test. PR [#1305](https://github.com/fastapi/typer/pull/1305) by [@svlandeg](https://github.com/svlandeg).
+
+### Docs
+
+* 📝 Clarify single-command vs multi-command behaviour in README. PR [#1268](https://github.com/fastapi/typer/pull/1268) by [@MorgenPronk](https://github.com/MorgenPronk).
+
 ## 0.18.0
 
 ### Fixes
